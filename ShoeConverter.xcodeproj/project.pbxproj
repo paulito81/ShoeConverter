@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA32BB3A1CD8751200F5B80D /* shoe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DA32BB391CD8751200F5B80D /* shoe.jpeg */; };
 		DAF3D0CB1CD72739002D6F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D0CA1CD72739002D6F15 /* AppDelegate.swift */; };
 		DAF3D0CD1CD72739002D6F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D0CC1CD72739002D6F15 /* ViewController.swift */; };
 		DAF3D0D01CD72739002D6F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D0CE1CD72739002D6F15 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA32BB391CD8751200F5B80D /* shoe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpeg; sourceTree = "<group>"; };
 		DAF3D0C71CD72739002D6F15 /* ShoeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF3D0CA1CD72739002D6F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF3D0CC1CD72739002D6F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA32BB381CD8750500F5B80D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA32BB391CD8751200F5B80D /* shoe.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		DAF3D0BE1CD72739002D6F15 = {
 			isa = PBXGroup;
 			children = (
+				DA32BB381CD8750500F5B80D /* Images */,
 				DAF3D0C91CD72739002D6F15 /* ShoeConverter */,
 				DAF3D0C81CD72739002D6F15 /* Products */,
 			);
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA32BB3A1CD8751200F5B80D /* shoe.jpeg in Resources */,
 				DAF3D0D51CD72739002D6F15 /* LaunchScreen.storyboard in Resources */,
 				DAF3D0D21CD72739002D6F15 /* Assets.xcassets in Resources */,
 				DAF3D0D01CD72739002D6F15 /* Main.storyboard in Resources */,
@@ -288,6 +300,7 @@
 				DAF3D0DB1CD72739002D6F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
